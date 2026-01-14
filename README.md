@@ -48,20 +48,69 @@ The project uses Python for data processing and Power BI / Excel for visualizati
 ## Project Structure
 
 capstone-project/
+│
 ├── data/
-│ ├── raw/ # Original dataset
-│ └── cleaned/ # Cleaned and enriched dataset
-├── dashboards/ # Visualizations
-├── logs/ # Validation logs
-├── scripts/ # Python scripts for the pipeline
-│ ├── clean_transform.py
-│ ├── enrich.py
-│ ├── validate.py
-│ ├── load.py
-│ └── pipeline.py
-├── diagrams/ # ERD or data modeling diagrams
+│ ├── raw/
+│ │ └── dataset.csv # Original dataset from Mockaroo
+│ └── cleaned/
+│ ├── dataset_cleaned.csv
+│ ├── dataset_enriched.csv
+│ └── dataset_final.csv
+│
+├── scripts/
+│ ├── clean_transform.py # Data cleaning & transformation
+│ ├── enrich.py # Feature enrichment
+│ ├── validate.py # Data validation
+│ ├── load.py # Load final dataset
+│ └── pipeline.py # Orchestration script
+│
+├── dashboards/
+│ └── dashboard.pbix # Power BI / Excel visuals
+│
+├── logs/
+│ └── validation.log # Pipeline logs
+│
+│
 └── README.md
 
+
+---
+
+### **Step 3: Save the file**
+- Press **Ctrl + S**
+
+---
+
+### **Step 4: Check on GitHub**
+- Commit and push again:
+```bash
+git add README.md
+git commit -m "Fix project structure formatting"
+git push
+
+
+Refresh your GitHub repo →
+✅ The structure will now look clean, readable, and professional
+
+💡 Why this works
+
+Triple backticks ``` keep formatting
+
+Tree layout matches real project structure
+
+This is industry-standard README style
+
+Evaluators love this clarity
+
+If you want, I can also:
+
+✔️ Fix the entire README end-to-end
+
+✔️ Make it submission-ready
+
+✔️ Match Data Engineer / Data Analyst standards
+
+Just tell me 👍
 
 ---
 
